@@ -5,3 +5,6 @@ export function aj()
     
 }
 aj()
+
+
+// For ES MODULE we need add {type:"module"} in package.json file
