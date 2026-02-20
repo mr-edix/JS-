@@ -13,7 +13,7 @@ fs.readFile("./ASYNCHCODE/aj.txt", "utf8", (err, data) => {
     }
 });
 
-https.get("http://jsonplaceholder.typicode.com/todos/1", (res) => {   
+https.get("https://jsonplaceholder.typicode.com/todos/1", (res) => {   
     // In an https call, we pass a callback function that receives the response from the server.
   //Here this response is available through the res object, which represents the data stream coming from the server.
     let data = "";
